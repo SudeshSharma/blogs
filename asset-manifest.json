@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/blogs/static/css/main.19393e92.chunk.css",
+    "main.js": "/blogs/static/js/main.73249104.chunk.js",
+    "main.js.map": "/blogs/static/js/main.73249104.chunk.js.map",
+    "runtime~main.js": "/blogs/static/js/runtime~main.8841e5c7.js",
+    "runtime~main.js.map": "/blogs/static/js/runtime~main.8841e5c7.js.map",
+    "static/js/2.9f314227.chunk.js": "/blogs/static/js/2.9f314227.chunk.js",
+    "static/js/2.9f314227.chunk.js.map": "/blogs/static/js/2.9f314227.chunk.js.map",
+    "index.html": "/blogs/index.html",
+    "precache-manifest.d2c1cb33cbb7e321bc90fb335e9900fd.js": "/blogs/precache-manifest.d2c1cb33cbb7e321bc90fb335e9900fd.js",
+    "service-worker.js": "/blogs/service-worker.js",
+    "static/css/main.19393e92.chunk.css.map": "/blogs/static/css/main.19393e92.chunk.css.map",
+    "static/media/GST1.jpg": "/blogs/static/media/GST1.c8c07a6c.jpg",
+    "static/media/Steve.jpg": "/blogs/static/media/Steve.9136c53c.jpg",
+    "static/media/regi.png": "/blogs/static/media/regi.078b0c87.png",
+    "static/media/tally18.jpg": "/blogs/static/media/tally18.66ab815b.jpg",
+    "static/media/tallyerp.jpg": "/blogs/static/media/tallyerp.0cad6642.jpg"
+  }
+}
