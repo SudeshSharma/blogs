@@ -1,0 +1,211 @@
+
+{/* third blog */}
+
+            {/* <Grid item  xs={12} sm={6} >
+                <Card raised className={classes.card}>
+                  <CardMedia
+                    className={classes.cardMedia}
+                    component="img" alt="Tally ERP 9"height="auto"  image={vat} title="Tally ERP 9"/>
+                  <CardHeader title="Tally" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+                  <CardContent className={classes.cardContent}>
+                    <Typography  variant="body1"  style={{color:"#212F3D"}}>
+                    Tally Eway Bill under GST
+                    </Typography>
+                  </CardContent>
+                  <CardHeader avatar={
+                  <Avatar alt="author" src={img1} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Bill Gates" subheader="18 July 2019" />
+                  {/* <Divider/>
+                        <CardHeader subheader="By Tally Answers 26 Augest 2018"/>
+                         <CardActions>
+                             <Button href="https://www.tallyanswers.com/tally-eway-bill-under-gst/" className={classes.button}>Read More</Button>
+                         </CardActions> 
+                </Card>
+              </Grid> */}
+
+{/* fourth blog */}
+{/* 
+            <Grid item  xs={12} sm={6} >
+                <Card raised className={classes.card}>
+                  <CardMedia
+                     className={classes.cardMedia}
+                    component="img" alt="Tally ERP 9" height="auto"  image={ebill} title="Tally ERP 9"/>
+                  <CardHeader title="E-way Bill" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+                  <CardContent className={classes.cardContent}>
+                    <Typography variant="body1"  style={{color:"#212F3D"}}>
+                    E-Way Bill compliance 
+                    </Typography>
+                  </CardContent>
+                  <CardHeader avatar={
+                  <Avatar alt="author" src={img2} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Steve Jobs" subheader="18 July 2019" />
+                  {/* <Divider/>
+                        <CardHeader subheader="By The Deccanherald 26 June 2019"/>
+                        <CardActions>
+                             <Button href="https://www.deccanherald.com/content/661981/tally-unveils-e-way-bill.html" className={classes.button}>Read More</Button>
+                         </CardActions> 
+                </Card>
+              </Grid> */}
+
+
+
+
+//               <Grid item  xs={12} sm={6} >
+//               <Card raised className={classes.card}>
+//                 <CardMedia
+//                   className={classes.cardMedia}
+//                   component="img" alt="Tally 18" height="auto"  image={regi} title="Tally 18"/>
+//                 <CardHeader title="Tally" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+//                 <CardContent className={classes.cardContent}>
+//                   <Typography variant="body1"  style={{color:"#212F3D"}}>
+//                   Tally E-way Bill
+//                   {/* Tally unveils e-Way Bill compliance solution */}
+//                   </Typography>
+//                 </CardContent>
+//                 <CardHeader avatar={
+//                 <Avatar alt="author" src={img2} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Steve Jobs" subheader="18 July 2019" />
+//                 {/* <Divider/>
+//                       <CardHeader subheader="By Tech Mouse 1 April 2019"/>
+//                       <CardActions>
+//                            <Button href="https://www.techmouse.in/tally-18.html" className={classes.button}>Read More</Button>
+//                        </CardActions> */}
+//               </Card>
+//             </Grid>
+
+// {/* seventh blog */}
+
+
+//           <Grid item  xs={12} sm={6} >
+//               <Card raised className={classes.card}>
+//                 <CardMedia
+//                   className={classes.cardMedia}
+//                   component="img" alt="Tally 18" height="auto"  image={tallyerp} title="Tally ERP 9 Release 6.1.1"/>
+//                 <CardHeader title="Tally" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+//                 <CardContent className={classes.cardContent}>
+//                   <Typography variant="body1"  style={{color:"#212F3D"}}>
+//                    New Update in Tally                    {/* Tally launches updated .ERP9 Release 6.1.1 */}
+//                   </Typography>
+//                 </CardContent>
+//                 <CardHeader avatar={
+//                 <Avatar alt="author" src={img1} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Bill Gates" subheader="18 July 2019" />
+//                 {/* <Divider/>
+//                        <CardHeader subheader="By Business Standard 27 October 2017"/>
+//                        <CardActions>
+//                           <Button href="https://www.business-standard.com/article/news-ani/tally-launches-updated-erp9-release-6-1-1-117101001066_1.html"  className={classes.button}>Read More</Button>
+//                        </CardActions> */}
+//               </Card>
+//             </Grid>
+
+// {/* eigth blog */}
+
+
+//           <Grid item  xs={12} sm={6} >
+//               <Card raised className={classes.card}>
+//                 <CardMedia
+//                    className={classes.cardMedia}
+//                   component="img" alt="Cinema" height="auto"  image={GST3} title="GST Cinema"/>
+//                 <CardHeader title="GST" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+//                 <CardContent className={classes.cardContent}>
+//                   <Typography variant="body1"  style={{color:"#212F3D"}}>
+//                   GST on Cinema Tickets
+//                   {/* Mamata government to give rebates on cinema tickets in GST regime */}
+//                   </Typography> 
+//                 </CardContent>
+//                 <CardHeader avatar={
+//                 <Avatar alt="author" src={img2} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Steve Jobs" subheader="18 July 2019" />
+//                 {/* <Divider/>
+//                       <CardHeader subheader="By Business Standard 28 June 2017"/>
+//                        <CardActions>
+//                            <Button href="https://www.business-standard.com/article/news-ians/mamata-government-to-give-rebates-on-cinema-tickets-in-gst-regime-117062801420_1.html" className={classes.button}>Read More</Button>
+//                        </CardActions> */}
+//               </Card>
+//             </Grid>
+
+
+// {/* ninth blog */}
+
+//           <Grid item  xs={12} sm={6} >
+//               <Card raised className={classes.card}>
+//                 <CardMedia
+//                    className={classes.cardMedia}
+//                   component="img" alt="UT GST" height="auto"  image={UTGST} title="UT GST"/>
+//                 <CardHeader title="GST" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+//                 <CardContent className={classes.cardContent}>
+//                   <Typography variant="body1"  style={{color:"#212F3D"}}>
+//                   GST Bill
+//                    {/* to be tabled in LS tomorrow */}
+//                   </Typography>
+//                 </CardContent>
+//                 <CardHeader avatar={
+//                 <Avatar alt="author" src={img1} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Bill Gates" subheader="18 July 2019" />
+//                 {/* <Divider/>
+//                        <CardHeader subheader="By Business Standard 23 March 2017"/>
+//                        <CardActions>
+//                            <Button href="https://www.business-standard.com/article/news-ani/gst-bill-to-be-tabled-in-ls-tomorrow-117032300707_1.html" className={classes.button}>Read More</Button>
+//                        </CardActions> */}
+//               </Card>
+//             </Grid>
+
+
+// {/* tenth blog */}
+
+
+//           <Grid item  xs={12} sm={6} >
+//             {/* <Link component={link10}> */}
+//               <Card raised className={classes.card}>
+//                 <CardMedia
+//                    className={classes.cardMedia}
+//                   component="img" alt="Monsoon Budget" height="auto"  image={Bug} title="Mansoon Budget"/>
+//                 <CardHeader title="Monsoon Budget" style={{color:"#34495E" ,textDecoration:"underline",textDecorationColor:"#EEBD09  "}}/>
+//                 <CardContent className={classes.cardContent}>
+//                   <Typography variant="body1"  style={{color:"#212F3D"}}>
+//                   Budget highlights
+//                   {/* :Super rich to be taxed more, fuel tax increases */}
+//                   </Typography> 
+//                 </CardContent>
+//                 <CardHeader avatar={
+//                 <Avatar alt="author" src={img1} />} style={{marginBottom:"50%",alignSelf:"center"}} title="Bill Gates" subheader="18 July 2019" />
+//                 {/* <Divider/>
+//                        <CardHeader subheader="By Business Standard 5 July 2019"/>
+//                       <CardActions>
+//                          <Button href="https://www.business-standard.com/budget/article/budget-2019-live-updates-nirmala-sitharam-budget-speech-income-tax-farmers-modi-govt-election-promises-highlights-119070500085_1.html" className={classes.button}>Read More</Button>
+//                       </CardActions> */}
+//               </Card>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                 {/* <h1 style={{fontFamily:"Georgia",color:"black"}}> For Latest News  about GST and Tally Follow Us on Social Media</h1><br/><br/>
+//                 <Card style={{width:"20%",height:"20%",backgroundColor:"transparent",color:"white",marginLeft:"40%"}}>
+//                             <CardHeader title="Follow Us For Latest Update" style={{color:"black"}}/><br/><br/>
+//                             <CardContent>
+//                                 <a href="https://www.linkedin.com/"><Icon style={{marginRight:"2%"}}><img src={linkedin} alt="LinkedIn" width="10%"/></Icon></a>
+//                                 <a href="https://www.instagram.com/"><Icon style={{marginRight:"2%"}}><img src={instagram} alt="Instagram" width="10%"/></Icon></a>
+//                                 <a href="https://www.facebook.com/"><Icon style={{marginRight:"2%"}}><img src={facebook} alt="Facebook" width="10%"/></Icon></a>
+//                                 <a href="https://www.twitter.com/"><Icon style={{marginRight:"2%"}}><img src={twitter} alt="Twitter"  width="10%"/></Icon></a>
+//                             </CardContent>
+//                 </Card><br/><br/><br/> */}
+//                  <Typography variant="h3" gutterBottom style={{fontFamily:"Georgia",color:"black"}}>
+//                 Join The Viser Newsletter!</Typography>
+//                 <Typography variant="h6" gutterBottom style={{fontFamily:"Georgia",color:"black"}}>Subscribe to our email news letters for valueble tally and gst resource,
+//                     Sent out you on every saturday.
+//                </Typography>
+//                
+//             </div>
+//         )
+//     }
+
+// }
+
+// export default withStyles(BlogStyle)(Blog)
