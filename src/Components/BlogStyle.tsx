@@ -1,9 +1,12 @@
 
 import { createStyles,Theme } from '@material-ui/core';
-import blog3 from '../Images/blog3.jpg'
+import blog3 from '../Images/viser.jpeg'
 
 export const BlogStyle = ((theme:Theme) =>
 createStyles({
+  root:{
+    transition:"slide"
+  },
   cardGrid: {
     paddingTop: theme.spacing(8),
     paddingBottom: theme.spacing(8),
@@ -14,6 +17,7 @@ createStyles({
   card: {
     height: 'auto',
     display: 'flex',
+    position:'relative',
     flexDirection: 'column',
     '&:hover':{
         boxShadow: '-1px 10px 29px 0px #5DADE2   ',
@@ -21,11 +25,41 @@ createStyles({
         transition: 'all .25s linear'
       },
     borderRadius: '5px',
+    cursor:'pointer'
     
+  },
+  Overlay:{
+      position:'absolute',
+      top:'20px',
+      left:'20px',
+      color:'black',
+      backgroundColor:'transparnet'
   },
    cardMedia: {
      height:"auto",
-     width:"100%"
+     width:"100%",
+     display:"block",
+       '&:hover:':{
+  //       position: 'absolute',
+ 
+  // right: 0,
+  // height: 'auto',
+  // width: '20%',
+  // opacity: 0,
+   transition: "all 0.4s ease-in-out 0s",
+   background:'rgba(0,0,0,0.7)',
+   textTransform:"capitalize",
+   textAlign:'center',
+   webkitTransition: 'all 0.4s ease-in-out 0s',
+  mozTransition: 'all 0.4s ease-in-out 0s',
+  
+   
+  //     },
+  //     '&:hover:container':{
+  //       position:'relative',
+  //       width:'50%',
+  //       opacity:'initial'
+       }
    },
    media:{
     width: 160,
@@ -51,12 +85,13 @@ createStyles({
 
   },
   toolbarLink: {
-    padding: theme.spacing(1),
+    //padding: theme.spacing(1),
     flexShrink: 0,
     fontFamily:"Times New Roman, Times, serif",
     fontWeight: 'bold',
     fontSize:"150%",
     position:"-webkit-sticky",
+    color:"grey"
     
   },
   overlay: {
@@ -98,7 +133,7 @@ createStyles({
     flex: 1,
   },
 
-  //
+
 
 //   h1:{
 //     color: "#2AAFE1  ",
@@ -116,9 +151,19 @@ button:{
 },
 header:{
   color:"#34495E" ,textDecoration:"underline",textDecorationStyle:"solid",textDecorationColor:"#EEBD09",whiteSpace:"pre-line"
+  ,textUnderlinePosition:'under'
+  
 },
 avatar:{
-  alignSelf:"center"
+  alignSelf:"center",
+  width:'20',
+  height:'20'
+},
+bigavatar:{
+  alignSelf:"center",
+  width: 60,
+  height: 60,
+
 },
 typo:{
   color:"#212F3D"
@@ -146,3 +191,9 @@ textInput:{
 },
 },
 }));
+
+
+
+
+
+

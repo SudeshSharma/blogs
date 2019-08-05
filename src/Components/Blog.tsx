@@ -1,23 +1,13 @@
 import React from 'react';
 
-import {Button,Card,CardContent,CardMedia,CssBaseline,Grid,Typography,Container, TextField, CardHeader,withStyles, Avatar, Paper, CardActions, Toolbar, Link  } from '@material-ui/core';
+import {Button,Card,CardContent,CardMedia,CssBaseline,Grid,Typography,Container, TextField, CardHeader,withStyles, Avatar, Paper, CardActions, Toolbar, Link } from '@material-ui/core';
+// import classNames from 'classnames'
 
-//import vat from '../Images/vat.jpg'
 import GST1 from '../Images/GST1.jpg'
-//import GST2 from '../Images/GST2.jpg'
-//import GST3 from '../Images/GST3.jpg'
 import regi from '../Images/regi.png'
-//import ebill from '../Images/ebill.png'
-import tally18 from '../Images/tally18.jpg'
-import tallyerp from '../Images/tallyerp.jpg'
 import blog3 from '../Images/blog3.jpg'
-//import Bug from '../Images/Bug.png'
-
-
+import './style.css'
 import { BlogStyle } from './BlogStyle';
-
-import BlogBar from './BlogBar'
-
 const img1 = require('../Images/guru.jpg')
 const img2 = require('../Images/Steve.jpg')
 
@@ -41,7 +31,6 @@ class Blog extends React.Component {
               <img
                 style={{ display: 'none' }}
                 src={blog3}
-                // "https://source.unsplash.com/random"
                 alt="background"
               />
             }
@@ -65,7 +54,7 @@ class Blog extends React.Component {
     
     
      
-          <Toolbar component="nav" variant="dense" className={classes. toolbarSecondary}>
+          <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
           {sections.map(section => (
          
             <Link
@@ -81,22 +70,22 @@ class Blog extends React.Component {
           
           ))}
       </Toolbar>    
-     
+      <div >
       <main>
           {/* Tally Toolbar for filter blogs */}
        
          
           {/* blogs start*/}
-         
-          <Grid container xs={12} spacing={5} className={classes.cardGrid}>
+         {/* <Slide direction='up'> */}
+          <Grid container xs={12} spacing={5} className={classes.cardGrid} >
         
           {/* first blog */}
-              <Grid item  xs={12} sm={6}>
-                <Card raised className={classes.card} >
-                    <CardMedia
+              <Grid item  xs={12} sm={6} >
+                <Card raised className={classes.card}>
+                    <CardMedia 
                     className={classes.cardMedia}
-                    component="img" image={GST1} />
-                    <CardHeader title="GST" className={classes.header}/>                
+                    component="img" image={GST1} title="GST" />
+                    <CardHeader title="GST" className={classes.header} />                
                     <CardContent className={classes.cardContent}>
                     <Typography variant="body1" className={classes.typo}>
                     Government uses GST alerts 
@@ -107,6 +96,7 @@ class Blog extends React.Component {
                     </CardActions>
                     <CardHeader avatar={
                     <Avatar alt="author" src={img1} />} className={classes.avatar} title="Bill Gates" subheader="18 July 2019" />
+                    
                 </Card>
               </Grid>
               <Grid item  xs={12} sm={6} >
@@ -126,7 +116,7 @@ class Blog extends React.Component {
                 </Card>
               </Grid>
               <Grid item  xs={12} sm={6} >
-                <Card raised className={classes.card} style={{marginTop:"2%"}}>
+                <Card raised className={classes.card}>
                   <CardMedia className={classes.cardMedia} component="img" alt="Tally ERP 9" height="auto"  image={regi} title="Tally ERP 9"/>
                   <CardHeader title="GST" className={classes.header}/>
                   <CardContent className={classes.cardContent}>
@@ -170,9 +160,11 @@ class Blog extends React.Component {
               </Grid>  */}
          
             </Grid>
+            {/* </Slide> */}
             </main>
+            </div>
         </Container>  
-     
+      
       {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom>
