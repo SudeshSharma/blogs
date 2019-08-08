@@ -1,6 +1,6 @@
 
 import { createStyles,Theme } from '@material-ui/core';
-import blog3 from '../Images/viser.jpeg'
+import viser from '../Images/viser.jpeg'
 
 export const BlogStyle = ((theme:Theme) =>
 createStyles({
@@ -40,25 +40,8 @@ createStyles({
      width:"100%",
      display:"block",
        '&:hover:':{
-  //       position: 'absolute',
- 
-  // right: 0,
-  // height: 'auto',
-  // width: '20%',
-  // opacity: 0,
-   transition: "all 0.4s ease-in-out 0s",
-   background:'rgba(0,0,0,0.7)',
-   textTransform:"capitalize",
-   textAlign:'center',
-   webkitTransition: 'all 0.4s ease-in-out 0s',
-  mozTransition: 'all 0.4s ease-in-out 0s',
-  
-   
-  //     },
-  //     '&:hover:container':{
-  //       position:'relative',
-  //       width:'50%',
-  //       opacity:'initial'
+          
+          backgroundColor:'white',
        }
    },
    media:{
@@ -107,7 +90,7 @@ createStyles({
     backgroundColor: theme.palette.grey[800],
     color: theme.palette.common.white,
     marginBottom: theme.spacing(4),
-    backgroundImage: `url(${blog3})`,
+    backgroundImage: `url(${viser})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
@@ -132,17 +115,6 @@ createStyles({
   cardDetails: {
     flex: 1,
   },
-
-
-
-//   h1:{
-//     color: "#2AAFE1  ",
-//     position:"absolute",
-//     top: '10%', left: '10%',
-//     marginRight: '-80%',
-//     transform: 'translate(-30%, -70%)'
-
-// },
 button:{
     backgroundColor:"#2AAFE1  ",
     fontFamily:"Times New Roman",
