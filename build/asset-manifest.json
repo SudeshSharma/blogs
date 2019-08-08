@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/blogs/static/css/main.7f7727f7.chunk.css",
-    "main.js": "/blogs/static/js/main.3542d782.chunk.js",
-    "main.js.map": "/blogs/static/js/main.3542d782.chunk.js.map",
+    "main.css": "/blogs/static/css/main.19393e92.chunk.css",
+    "main.js": "/blogs/static/js/main.7289147c.chunk.js",
+    "main.js.map": "/blogs/static/js/main.7289147c.chunk.js.map",
     "runtime~main.js": "/blogs/static/js/runtime~main.8841e5c7.js",
     "runtime~main.js.map": "/blogs/static/js/runtime~main.8841e5c7.js.map",
-    "static/js/2.184e86d4.chunk.js": "/blogs/static/js/2.184e86d4.chunk.js",
-    "static/js/2.184e86d4.chunk.js.map": "/blogs/static/js/2.184e86d4.chunk.js.map",
+    "static/js/2.48348c87.chunk.js": "/blogs/static/js/2.48348c87.chunk.js",
+    "static/js/2.48348c87.chunk.js.map": "/blogs/static/js/2.48348c87.chunk.js.map",
     "index.html": "/blogs/index.html",
-    "precache-manifest.c9e0115fc6191c0513b35bff739cf1ec.js": "/blogs/precache-manifest.c9e0115fc6191c0513b35bff739cf1ec.js",
+    "precache-manifest.ae8f4e1a321ce39fb31e7e9dbfde4f38.js": "/blogs/precache-manifest.ae8f4e1a321ce39fb31e7e9dbfde4f38.js",
     "service-worker.js": "/blogs/service-worker.js",
-    "static/css/main.7f7727f7.chunk.css.map": "/blogs/static/css/main.7f7727f7.chunk.css.map",
+    "static/css/main.19393e92.chunk.css.map": "/blogs/static/css/main.19393e92.chunk.css.map",
     "static/media/GST1.jpg": "/blogs/static/media/GST1.c8c07a6c.jpg",
-    "static/media/Steve.jpg": "/blogs/static/media/Steve.9136c53c.jpg",
-    "static/media/blog3.jpg": "/blogs/static/media/blog3.85eabf27.jpg",
-    "static/media/regi.png": "/blogs/static/media/regi.078b0c87.png",
+    "static/media/GST3.jpg": "/blogs/static/media/GST3.744e0dc1.jpg",
+    "static/media/bl1.jpeg": "/blogs/static/media/bl1.bee9e2e9.jpeg",
+    "static/media/bl2.jpeg": "/blogs/static/media/bl2.6f172e5d.jpeg",
+    "static/media/bl3.jpeg": "/blogs/static/media/bl3.b12ee9fe.jpeg",
     "static/media/viser.jpeg": "/blogs/static/media/viser.a6445f70.jpeg"
   }
 }

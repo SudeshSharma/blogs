@@ -57,18 +57,11 @@ createStyles({
   toolbarSecondary: {
     justifyContent: 'space-between',
     overflowX: 'auto',
-    // display: '-webkit-flex',
-    // WebkitFlexDirection:'row',
-    // flexDirection: 'row',
-    // padding: theme.spacing(2),
-    // marginTop: theme.spacing(5),
-    
-    // alignItems:'center',
-  
+   
 
   },
   toolbarLink: {
-    //padding: theme.spacing(1),
+    
     flexShrink: 0,
     fontFamily:"Times New Roman, Times, serif",
     fontWeight: 'bold',

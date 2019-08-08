@@ -57,11 +57,6 @@ class Blog extends React.Component {
       </Toolbar>    
       <div >
       <main>
-          {/* Tally Toolbar for filter blogs */}
-       
-         
-          {/* blogs start*/}
-         {/* <Slide direction='up'> */}
           <Grid container xs={12} spacing={5} className={classes.cardGrid} >
         
           {/* first blog */}
